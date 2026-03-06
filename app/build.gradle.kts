@@ -7,7 +7,18 @@ android {
     compileSdk {
         version = release(36)
     }
-
+    sourceSets {
+        getByName("main") {
+            res.srcDirs(
+                "src/main/res/layouts/layout_auth",
+                "src/main/res/layouts/layout_kid",
+                "src/main/res/layouts/layout_parent",
+                "src/main/res/layouts/layout_teacher",
+                "src/main/res/layouts/layout_admin",
+                "src/main/res"
+            )
+        }
+    }
     defaultConfig {
         applicationId = "com.example.moblie_app_dev"
         minSdk = 24
