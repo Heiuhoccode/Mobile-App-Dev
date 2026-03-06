@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Float up-down animation for floating icons (matches HTML animate-float: translateY 0 → -20px) -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromYDelta="0"
+    android:toYDelta="-20dp"
+    android:duration="1500"
+    android:repeatMode="reverse"
+    android:repeatCount="infinite"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator" />
+
+
+
